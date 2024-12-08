@@ -74,9 +74,9 @@ export default function Main(){
                     <p className="text-[1.4em] font-normal text-[#737373]">Problems trying to resolve the conflict between </p>
                 </div>
                 <div className="flex justify-center items-center gap-[4em] px-[12em] flex-wrap">
-                    {products.map((elem)=>{
+                    {products.map((elem,index)=>{
                         return(
-                            <div className="flex flex-col gap-[2.5em] mb-[7em]">
+                            <div className="flex flex-col gap-[2.5em] mb-[7em]" key={index}>
                                 <div className="w-[23.9em] h-[42.7em]">
                                     <Link href="./components/productDetail"><Image src={elem.image} className="w-[100%] h-[100%] object-cover" alt="image"/></Link>
                                 </div>
@@ -142,8 +142,8 @@ export default function Main(){
                                 <Link href="" className="text-[1.2em] font-normal capitalize hover:text-[#8EC2F2]">trending</Link>
                                 <Link href="" className="text-[1.2em] font-normal capitalize hover:text-[#8EC2F2]">new</Link>
                             </div>
-                            <h2 className="text-[2em] font-normal text-[#252B42]">Loudest à la Madison #1 (L'integral)</h2>
-                            <p className="text-[1.4em] font-normal text-[#737373] ">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                            <h2 className="text-[2em] font-normal text-[#252B42]">Loudest à la Madison #1 (L&apos;integral)</h2>
+                            <p className="text-[1.4em] font-normal text-[#737373] ">We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
                             <div className="flex justify-between items-center">
                                 <span className="flex items-center gap-[1em] ">
                                     <Image src={clock_I} className="w-[1.5em] h-[1.5em] object-cover" alt="icon"/>
@@ -168,8 +168,8 @@ export default function Main(){
                                 <Link href="" className="text-[1.2em] font-normal capitalize hover:text-[#8EC2F2]">trending</Link>
                                 <Link href="" className="text-[1.2em] font-normal capitalize hover:text-[#8EC2F2]">new</Link>
                             </div>
-                            <h2 className="text-[2em] font-normal text-[#252B42]">Loudest à la Madison #1 (L'integral)</h2>
-                            <p className="text-[1.4em] font-normal text-[#737373] ">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                            <h2 className="text-[2em] font-normal text-[#252B42]">Loudest à la Madison #1 (L&apos;integral)</h2>
+                            <p className="text-[1.4em] font-normal text-[#737373] ">We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
                             <div className="flex justify-between items-center">
                                 <span className="flex items-center gap-[1em] ">
                                     <Image src={clock_I} className="w-[1.5em] h-[1.5em] object-cover" alt="icon"/>
@@ -194,8 +194,8 @@ export default function Main(){
                                 <Link href="" className="text-[1.2em] font-normal capitalize hover:text-[#8EC2F2]">trending</Link>
                                 <Link href="" className="text-[1.2em] font-normal capitalize hover:text-[#8EC2F2]">new</Link>
                             </div>
-                            <h2 className="text-[2em] font-normal text-[#252B42]">Loudest à la Madison #1 (L'integral)</h2>
-                            <p className="text-[1.4em] font-normal text-[#737373] ">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                            <h2 className="text-[2em] font-normal text-[#252B42]">Loudest à la Madison #1 (L&apos;integral)</h2>
+                            <p className="text-[1.4em] font-normal text-[#737373] ">We focus on ergonomics and meeting you where you work. It&apos;s only a keystroke away.</p>
                             <div className="flex justify-between items-center">
                                 <span className="flex items-center gap-[1em] ">
                                     <Image src={clock_I} className="w-[1.5em] h-[1.5em] object-cover" alt="icon"/>
