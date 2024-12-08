@@ -50,7 +50,7 @@ export default function Contact (){
 
             {/* Let’s Talk Section */}
             <section className="text-center py-16">
-                <h2 className="text-2xl text-gray-700">We Can't Wait to Meet You</h2>
+                <h2 className="text-2xl text-gray-700">We Can&apos;t Wait to Meet You</h2>
                 <h1 className="text-4xl font-bold mt-4">Let’s Talk</h1>
                 <button className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-md">Try it free now</button>
             </section>
