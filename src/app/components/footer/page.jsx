@@ -1,9 +1,5 @@
 import Image from "next/image";
-import message_I from "./images/Vector.png"
 import Link from "next/link";
-import qrCode_I from "./images/Qr Code.png"
-import googlePlay_I from "./images/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"
-import appStore_I from "./images/download-appstore.png"
 import instagram_I from "./images/ant-design_instagram-outlined.png"
 import facebook_I from "./images/facebook (1).png"
 import twitter_I from "./images/ant-design_twitter-outlined.png"
