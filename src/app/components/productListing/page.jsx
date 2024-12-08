@@ -69,9 +69,9 @@ export default function ProductPage(){
                     </div>
                 </div>
                 <div className="flex justify-center items-center gap-[4em] my-[5em] flex-wrap">
-                        {products.map((elem)=>{
+                        {products.map((elem,index)=>{
                             return(
-                                <div className="flex flex-col gap-[2.5em] mb-[7em]">
+                                <div className="flex flex-col gap-[2.5em] mb-[7em]" key={index}>
                                     <div className="w-[23.9em] h-[42.7em]">
                                         <Image src={elem.image} className="w-[100%] h-[100%] object-cover" alt="image"/>
                                     </div>
