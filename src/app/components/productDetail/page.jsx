@@ -124,9 +124,9 @@ export default function ProductDetail(){
                     <h2 className="font-bold text-[2.4em] pl-[2em] uppercase">bestseller product</h2>
                     <hr />
                     <div className="flex justify-center items-center gap-[4em] flex-wrap">
-                        {products.map((elem)=>{
+                        {products.map((elem,index)=>{
                             return(
-                                <div className="flex flex-col gap-[2.5em] mb-[7em]">
+                                <div className="flex flex-col gap-[2.5em] mb-[7em]" key={index} >
                                     <div className="w-[23.9em] h-[44.2em]">
                                         <Image src={elem.image} className="w-[100%] h-[100%] object-cover" alt="image"/>
                                     </div>
