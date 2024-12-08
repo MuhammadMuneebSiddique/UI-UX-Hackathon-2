@@ -153,6 +153,7 @@ html,body{
 @media (width < 640px) {
   .header{
       font-size: 5.5px;
+             padding: 0 2em;
       & .nav_item,.search-section,.banner{
           display: none;
       }
